@@ -9,3 +9,7 @@ def turn_count(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+
+turn_count(board1).each do |turn|
+  puts "You've had #{turn} until now"
+end
